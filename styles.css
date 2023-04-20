@@ -13,7 +13,7 @@
     font-weight: 500;
   }
   header {
-    background-color: #333;
+    background-color: #34447B;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -21,6 +21,8 @@
     font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 500;
+    box-shadow: 0 0 10px #ccc;
+
   }
   #canvas-container {
     display: flex;
@@ -90,7 +92,7 @@
   
 
   .sbmitButton{
-    background-color: #d099d1;
+    background-color: #34447B;
     border-radius: 40px;
     cursor: pointer;
     height: 110px;
@@ -120,7 +122,7 @@
     text-align: center;
     width: auto;
     font-family: var(--font-family-tajawal);
-    font-size: var(--font-size-s);
+    font-size: 3em;
 }
 
 .speech{
