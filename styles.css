@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Tajawal:700,500,900");
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap');
+@font-face {
+    font-family: 'Tajawal';
+    src: url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap');
+}
+
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font-family-tajawal);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: var(--font-family-tajawal);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 500;
+  }
+  #canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  canvas {
+    border: 2px solid #333;
+  }
+  #nameField {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+  
+  
+  #nameField:focus {
+    border: 2px solid #ffb700;
+  }
+
+  .logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  canvas#viewport {
+ 
+    transform: scale(0.66);
+    margin: 40px;
+  }
+  
+  .col-md-6 {
+    height: 500px; /* set a fixed height */
+    background-color: transparent;
+    cursor: pointer;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    transition: all 0.2s ease;
+    width: 50%;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+      
+  
+  .col-md-6:hover {
+    transform: scale(1.1);
+  }
+  
+
+  .sbmitButton{
+    background-color: #d099d1;
+    border-radius: 40px;
+    cursor: pointer;
+    height: 110px;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    display: flex;
+    transition: all 0.2s ease;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+}  
+
+
+.textLabel {
+    background-color: transparent;
+    color: var(--white);
+    direction: rtl;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    mix-blend-mode: normal;
+    text-align: center;
+    width: auto;
+    font-family: var(--font-family-tajawal);
+    font-size: var(--font-size-s);
+}
+
+.speech{
+    margin: 30px;
+    background-color: transparent;
+    color: #34447B;
+    direction: rtl;
+    font-family: var(--font-family-tajawal);
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    height: 41px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    text-align: center;
+
+}

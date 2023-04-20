@@ -1,0 +1,11 @@
+
+
+canvas#viewport {
+    border: 1px dotted black;
+    position: relative;
+    width: 85%; 
+}
+
+canvas {
+    
+}
