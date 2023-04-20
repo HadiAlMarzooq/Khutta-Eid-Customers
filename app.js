@@ -6,6 +6,8 @@ window.onload = function () {
   const yasinCard = document.getElementById("yasin");
   const beutiCard = document.getElementById("beuti");
   const someCard = document.getElementById("some");
+  const elHadiCard = document.getElementById("elhadi");
+
 
   console.log(beutiCard)
 
@@ -28,6 +30,10 @@ defaultImg.onload = function(e){
 
 trianlge = new Image();
 trianlge.src = 'img/assets/معايدات العملاء-02 (1).png';
+
+
+elhadi = new Image();
+elhadi.src = 'img/assets/معايدات العملاء-01.png';
 
 yasin = new Image();
 yasin.src = 'img/assets/معايدات العملاء-10.png';
@@ -73,6 +79,11 @@ someCard.onclick = function(e){
 seifCard.onclick = function(e){
     selectedImg = seif;
     updateCanvas(canvas, seif, nameField.value);
+}
+
+elhadiCard.onclick = function(e){
+  selectedImg = elhadi;
+  updateCanvas(canvas, elhadi, nameField.value);
 }
 
 sinmarCard.onclick = function(e){
