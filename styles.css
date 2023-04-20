@@ -125,7 +125,7 @@
     font-size: 3em;
 }
 
-.speech{
+.speech {
     margin-bottom: 100px;
     background-color: transparent;
     color: #34447B;
@@ -134,10 +134,11 @@
     font-size: 1.5em;
     font-style: normal;
     font-weight: 500;
-    height: 41px;
     letter-spacing: 0.00px;
     line-height: normal;
     mix-blend-mode: normal;
     text-align: center;
-
+    border: 1px solid #34447B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
 }
