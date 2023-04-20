@@ -81,7 +81,7 @@ seifCard.onclick = function(e){
     updateCanvas(canvas, seif, nameField.value);
 }
 
-elhadiCard.onclick = function(e){
+elHadiCard.onclick = function(e){
   selectedImg = elhadi;
   updateCanvas(canvas, elhadi, nameField.value);
 }
